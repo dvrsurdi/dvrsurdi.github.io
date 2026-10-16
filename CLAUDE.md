@@ -19,7 +19,6 @@ cambiarlo al clonar en otro equipo sin rehacer las dos cosas.
 ```
 index.html          índice: una entrada por aplicación
 estilo.css          estilo común
-privacidad.html     redirección de la dirección antigua de seo-tools (ver abajo)
 <aplicación>/
 ├── index.html      qué es y qué datos usa (página de inicio para la plataforma)
 └── privacidad.html política de privacidad
@@ -37,9 +36,7 @@ moverla, se deja la antigua redirigiendo hasta que se cambie en la consola.
 | Carpeta | Plataforma | Dónde están dadas de alta las direcciones |
 |---|---|---|
 | `seo-tools/` | Google (Search Console, Business Profile) | Google Cloud → Google Auth Platform → Branding |
-
-`privacidad.html` de la raíz es la dirección que tenía seo-tools hasta el
-2026-10-16; se borra cuando Google Cloud apunte ya a `seo-tools/privacidad.html`.
+| `meta/` | Meta (WhatsApp y demás): una página común para todas las aplicaciones de Meta | Meta for Developers → cada aplicación → Configuración → Básica |
 
 ## Contenido
 
