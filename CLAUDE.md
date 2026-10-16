@@ -32,6 +32,9 @@ google2f72974913814721.html  verificación en Search Console: no se borra
 
 Una aplicación nueva = una carpeta con su nombre + su entrada en `index.html`.
 Cada página lleva `<nav>` de vuelta al índice y enlaza `../estilo.css`.
+Todas llevan `<meta name="robots" content="noindex">`: no salen en buscadores,
+pero se pueden leer. **No se añade `robots.txt` que las bloquee**: Meta y Google
+tienen que poder entrar a leerlas, y un bloqueo impediría ver el `noindex`.
 
 **Las direcciones son públicas y están dadas de alta en consolas externas**:
 renombrar o mover una página rompe la aplicación que la cita. Si hay que
