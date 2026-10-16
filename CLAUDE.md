@@ -35,10 +35,15 @@ moverla, se deja la antigua redirigiendo hasta que se cambie en la consola.
 
 | Carpeta | Plataforma | Dónde están dadas de alta las direcciones |
 |---|---|---|
-| `seo-tools/` | Google (Search Console, Business Profile) | Google Cloud → Google Auth Platform → Branding |
+| `seo-tools/` | Google (Search Console, Business Profile); en Google se llama **G_Analyzer** | Google Cloud → Google Auth Platform → Branding |
 | `meta/` | Meta (WhatsApp y demás): una página común para todas las aplicaciones de Meta | Meta for Developers → cada aplicación → Configuración → Básica |
 
 ## Contenido
+
+El `<title>` y el `<h1>` de cada página llevan **el nombre exacto con que la
+aplicación está dada de alta** en la plataforma: Google rechaza la verificación
+de marca si no coinciden (2026-10-16). La propiedad `https://dvrsurdi.github.io/`
+tiene que estar verificada en Search Console con la cuenta del proyecto de Cloud.
 
 En castellano. Ninguna página lleva el correo personal del desarrollador: el
 contacto remite al correo de asistencia que se da en cada plataforma.
