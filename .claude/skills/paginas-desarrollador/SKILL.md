@@ -36,13 +36,16 @@ Va aquí lo que una plataforma rechazó y la documentación no dejaba claro, con
 fecha. Es lo que más vale de esta skill: anótalo cada vez.
 
 **Google, verificación de marca (2026-10-16):**
+- **Decisión: G_Analyzer no se verifica.** Es de uso propio; sin verificar
+  funciona igual (solo sale el aviso de app no verificada). Lo de abajo queda
+  por si alguna vez hiciera falta.
 - «El nombre de la app no coincide con el de tu página principal»: el `<title>`
   y el `<h1>` de la página principal decían `seo-tools` y la app se llama
   `G_Analyzer` en la pantalla de consentimiento. Tienen que coincidir.
 - «El sitio web de la URL de tu página principal no está registrado a tu
   nombre»: `https://dvrsurdi.github.io/` tiene que estar verificada en Search
   Console (propiedad «Prefijo de la URL»; `github.io` no admite «Dominio») con
-  la cuenta del proyecto de Cloud. Se verificó con el archivo
+  la cuenta del proyecto de Cloud. Para eso está el archivo
   `google2f72974913814721.html` en la raíz, que **no se borra**. Tras verificar,
   esperar 24 h antes de reintentar la verificación de marca.
   **Pero** la ayuda de Google ([5] de `google.md`) exige propiedad de tipo
