@@ -26,7 +26,8 @@ estilo.css          estilo común
 google2f72974913814721.html  verificación en Search Console: no se borra
 <aplicación>/
 ├── index.html      qué es y qué datos usa (página de inicio para la plataforma)
-└── privacidad.html política de privacidad
+├── privacidad.html política de privacidad
+└── borrado-de-datos.html  cómo pedir el borrado (solo si la plataforma lo pide)
 ```
 
 Una aplicación nueva = una carpeta con su nombre + su entrada en `index.html`.
@@ -52,3 +53,9 @@ tiene que estar verificada en Search Console con la cuenta del proyecto de Cloud
 
 En castellano. Ninguna página lleva el correo personal del desarrollador: el
 contacto remite al correo de asistencia que se da en cada plataforma.
+
+**Las de `meta/` son la excepción al nombre exacto**: no llevan el nombre de
+ninguna aplicación (son provisionales y cambian), ni el del desarrollador, ni
+dónde están las copias de seguridad. Lo mínimo que piden la ley y Meta; la
+responsable es el negocio, y el contacto y las peticiones de borrado van a él,
+por correo.
