@@ -35,6 +35,12 @@ sabes qué datos usa, se pregunta, no se inventa.
 Va aquí lo que una plataforma rechazó y la documentación no dejaba claro, con
 fecha. Es lo que más vale de esta skill: anótalo cada vez.
 
+**Meta, publicar la app (2026-10-16):** se publicó sin icono y sin URL de
+borrado de datos y Meta no los exigió, aunque `meta.md` [3] marca el icono
+como obligatorio para Live. En modo desarrollo, los webhooks de mensajes con
+el número real llegaban sin problema durante días: Meta solo dice que
+«algunos» no se envían en desarrollo.
+
 **Google, verificación de marca (2026-10-16):**
 - **Decisión: G_Analyzer no se verifica.** Es de uso propio; sin verificar
   funciona igual (solo sale el aviso de app no verificada). Lo de abajo queda
