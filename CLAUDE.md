@@ -5,6 +5,10 @@ piden Google, Meta y demás plataformas al dar de alta una aplicación (página 
 inicio, política de privacidad, condiciones, borrado de datos…). Se irán
 añadiendo según se pidan.
 
+**Antes de crear, cambiar o dar por buena una página, se usa la skill
+`paginas-desarrollador`** (`.claude/skills/`): tiene lo que exige cada
+plataforma y cómo revisarlo.
+
 ## Cómo se publica
 
 GitHub Pages sirve la rama `main` desde la raíz en `https://dvrsurdi.github.io/`.
@@ -19,6 +23,7 @@ cambiarlo al clonar en otro equipo sin rehacer las dos cosas.
 ```
 index.html          índice: una entrada por aplicación
 estilo.css          estilo común
+google2f72974913814721.html  verificación en Search Console: no se borra
 <aplicación>/
 ├── index.html      qué es y qué datos usa (página de inicio para la plataforma)
 └── privacidad.html política de privacidad
